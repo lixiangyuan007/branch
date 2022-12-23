@@ -10,6 +10,7 @@ int getPeachNumber(int n)
     {
         num = (getPeachNumber(n+1)+1)*2;  
         printf("第%d天所剩桃子%d个\n", n, num); 
+        printf("HAHA");
     }
     return num;
 }
